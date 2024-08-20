@@ -1,0 +1,108 @@
+{
+	"main": [
+		{
+			"type": "word",
+			"choices": ["The"]
+		},
+		{ "type": "space" },
+		{
+			"type": "phrase",
+			"choices": ["adjective"]
+		},
+		{ "type": "space" },
+		{
+			"type": "phrase",
+			"choices": ["adjective"]
+		},
+		{ "type": "space" },
+		{
+			"type": "phrase",
+			"choices": ["animal"]
+		},
+		{ "type": "space" },
+		{
+			"type": "phrase",
+			"choices": ["verb (with object)"],
+			"tense": "simple past third person singular"
+		},
+		{ "type": "space" },
+		{
+			"type": "phrase",
+			"choices": ["adjective"],
+			"article": "indefinite"
+		},
+		{ "type": "space" },
+		{
+			"type": "phrase",
+			"choices": ["animal"]
+		}
+	],
+	"secondary": [
+		{
+			"type": "word",
+			"choices": ["Sometimes"]
+		},
+		{ "type": "space" },
+		{
+			"type": "phrase",
+			"choices": ["animal"],
+			"article": "definite"
+		},
+		{
+			"type": "word",
+			"choices": [" is "]
+		},
+		{
+			"type": "word",
+			"choices": [
+				"{verb (with object)} you.",
+				"go nowhere."
+			],
+			"tense": "present participle"
+		}
+	],
+	"adjective": [
+		{
+			"type": "word",
+			"choices": [
+				"quick",
+				"brown",
+				"lazy",
+				"slow",
+				"foolish",
+				"green",
+				"blue",
+				"elephantine",
+				"confused"
+			]
+		}
+	],
+	"animal": [
+		{
+			"type": "word",
+			"choices": [
+				"fox",
+				"dog",
+				"eagle",
+				"axolotl",
+				"shrew",
+				"whale"
+			],
+			"offensive": [
+				"donkey"
+			]
+		}
+	],
+	"verb (with object)": [
+		{
+			"type": "word",
+			"choices": [
+				"jump over",
+				"run around",
+				"sit on",
+				"endorse",
+				"be near"
+			]
+		}
+	]
+}

@@ -3,59 +3,39 @@ const path = require("path")
 
 class Phrasemaker {
 	constructor(settingsPath) {
-		userSettings = JSON.parse(fs.readFileSync(
+		this.userSettings = JSON.parse(fs.readFileSync(
 			path.resolve(settingsPath), "utf-8"))
-		defaultSettings = JSON.parse(fs.readFileSync(
+		this.defaultSettings = JSON.parse(fs.readFileSync(
 			"./settings.json", "utf-8"))
 
-		if (userSettings.dictionary) {
+		if (this.userSettings.dictionary) {
 			this.dictionary = JSON.parse(fs.readFileSync(
-				path.resolve(userSettings.dictionary), "utf-8"))
+				path.resolve(this.userSettings.dictionary), "utf-8"))
 		} else {
-			this.dictionary = require(defaultSettings.phrasebook)
+			this.dictionary = require(this.defaultSettings.dictionary)
 		}
 
-		if (userSettings.phrasebook) {
+		if (this.userSettings.phrasebook) {
 			this.phrasebook = JSON.parse(fs.readFileSync(
-				path.resolve(userSettings.dictionary), "utf-8"))
+				path.resolve(this.userSettings.phrasebook), "utf-8"))
 		} else {
-			this.phrasebook = require(defaultSettings.phrasebook)
+			this.phrasebook = require(this.defaultSettings.phrasebook)
 		}
 
-		this.entrypoint = userSettings.entrypoint || defaultSettings.entrypoint
-		this.includeOffensive = userSettings.includeOffensive
-			|| defaultSettings.includeOffensive
-	}
-
-	setup(settingFile) {
-		settings = JSON.parse(fs.readFileSync(settingFile, "utf-8"))
-		if (settings === undefined) {
-			settings = require("./settings.json")
-		}
-
-		if (settings.phrasebook !== undefined) {
-			phrasebook = require(settings.phrasebook)
-		}
-
-		if (settings.dictionary !== undefined) {
-			dictionary = require(settings.dictionary)
-		}
-
-		if (settings.entrypoint !== undefined) {
-			standardEntrypoint = require(entrypoint)
-		}
-
-		if (settings.includeOffensive !== undefined) {
-			includeOffensive = require(settings.includeOffensive)
-		}
+		this.entrypoint = this.userSettings.entrypoint
+			|| this.defaultSettings.entrypoint
+		this.includeOffensive = this.userSettings.includeOffensive
+			|| this.defaultSettings.includeOffensive
 	}
 
 	// Generates any number of phrases according to the standard settings.
 	generate(number) {
 		let phrases = []
 		for (let i = 0; i < number; i++) {
-			phrases.append(this.getPhrase(this.entrypoint, this.includeOffensive))
+			phrases.push(this.getPhrase(this.entrypoint, this.includeOffensive))
 		}
+
+		return phrases
 	}
 
 	// Gets a specific phrase from the phrasebook based on the entrypoint.
@@ -63,9 +43,12 @@ class Phrasemaker {
 	// over the entrypoint and offensiveness settings.
 	getPhrase(entrypoint, includeOffensive) {
 		let phrase = ""
-		for (let i in phrasebook[entrypoint]) {
-			node = phrasebook[entrypoint][i]
-			selection = ""
+		if (!this.phrasebook[entrypoint]) {
+			return "[Error: Phrase does not exist.]"
+		}
+		for (let i in this.phrasebook[entrypoint]) {
+			let node = this.phrasebook[entrypoint][i]
+			let selection = ""
 
 			// Add node
 			if (node.type === "space") {
@@ -73,21 +56,31 @@ class Phrasemaker {
 				continue
 			} else if (node.type === "word") {
 				if (includeOffensive && node.offensive !== undefined) {
-					selection = rand(node.choices.concat(node.offensive))
+					selection = Phrasemaker.rand(node.choices.concat(node.offensive))
 				} else {
-					selection = rand(node.choices)
+					selection = Phrasemaker.rand(node.choices)
 				}
 			} else if (node.type === "phrase") {
-				selection = getPhrase(rand(node.choices), includeOffensive)
+				selection = this.getPhrase(Phrasemaker.rand(node.choices), includeOffensive)
 			} else {
 				console.log("Unsupported node type: " + node.type)
 			}
 
-			words = selection.split(" ")
+			// Fill in substitutions
+			let matches = selection.matchAll(/\{(.+)\}/g)
+			for (let match of matches) {
+				selection = selection.replace(match[0], this.getPhrase(match[1], includeOffensive))
+			}
+
+			let words = selection.split(" ")
 
 			// Conjugate first verb
-			if (node.tense !== undefined && node.tense !== "infinitive") {
-				words[0] = conjugate(words[0].toLowerCase(), node.tense)
+			if (
+				node.tense !== undefined
+				&& node.tense !== "infinitive"
+				&& !words[0].startsWith("{")
+			) {
+				words[0] = this.conjugate(words[0].toLowerCase(), node.tense)
 			}
 
 			// Add preceding article
@@ -95,7 +88,7 @@ class Phrasemaker {
 				if (node.article == "definite") {
 					words.unshift("the")
 				} else if (node.article == "indefinite") {
-					if (beginsWithVowelSound(words[0].toLowerCase())) {
+					if (this.beginsWithVowelSound(words[0].toLowerCase())) {
 						words.unshift("an")
 					} else {
 						words.unshift("a")
@@ -104,19 +97,13 @@ class Phrasemaker {
 			}
 
 			selection = ""
-			for (word of words) {
+			for (let word of words) {
 				selection += word + " "
 			}
 
 			selection.trim()
 
 			phrase += selection
-		}
-
-		// Fill in substitutions
-		let matches = phrase.matchAll(/\{(.+)\}/g)
-		for (let match of matches) {
-			phrase = phrase.replace(match[0], getPhrase(match[1], includeOffensive))
 		}
 
 		phrase = phrase.replace(/\s+/g, " ").trim()
@@ -129,23 +116,23 @@ class Phrasemaker {
 	 * @param {*} word A lowercase word to match against the dictionary
 	 * @returns true if the chosen word begins with a vowel sound, false otherwise
 	 */
-	static beginsWithVowelSound(word) {
-		isVowelSound = false
+	beginsWithVowelSound(word) {
+		let isVowelSound = false
 
 		if (
-			dictionary[word] !== undefined &&
-			dictionary[word].beginsWithVowelSound != undefined
+			this.dictionary[word] &&
+			this.dictionary[word].beginsWithVowelSound !== undefined
 		) {
 			return (dictionary[word].beginsWithVowelSound === true)
 		}
 
-		for (vowelSound of dictionary["#vowel sounds"]) {
+		for (let vowelSound of this.dictionary["#vowel sounds"]) {
 			let re = new RegExp(vowelSound)
 			if (re.test(word)) {
 				isVowelSound = true
 			}
 		}
-		for (consonantSound of dictionary["#consonant sounds"]) {
+		for (let consonantSound of this.dictionary["#consonant sounds"]) {
 			let re = new RegExp(consonantSound)
 			if (re.test(word)) {
 				isVowelSound = false
@@ -162,22 +149,20 @@ class Phrasemaker {
 	 * @param {*} tense The tense to conjugate the verb into
 	 * @returns the conjugated verb
 	 */
-	static conjugate(verb, tense) {
-		isVowelSound = false
-
+	conjugate(verb, tense) {
 		if (
-			dictionary[verb] !== undefined &&
-			dictionary[verb][tense] != undefined
+			this.dictionary[verb] &&
+			this.dictionary[verb][tense] !== undefined
 		) {
-			return dictionary[verb][tense]
+			return this.dictionary[verb][tense]
 		}
 
-		verbNoE = verb
+		let verbNoE = verb
 		if (verb.endsWith("e"))
 			verbNoE = verb.slice(0, -1)
 
 		return (
-			dictionary["#verb conjugations"][tense]
+			this.dictionary["#verb conjugations"][tense]
 				.replace("<verb>", verb)
 				.replace("<verb-e>", verbNoE)
 		)
