@@ -1,0 +1,23 @@
+{
+  "name": "phrase-creator",
+  "version": "1.0.0",
+  "description": "A module that procedurally generates random phrases according to a user-defined phrasebook.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mOctave/saying.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "phrase"
+  ],
+  "author": "mOctave",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mOctave/saying/issues"
+  },
+  "homepage": "https://github.com/mOctave/saying#readme"
+}

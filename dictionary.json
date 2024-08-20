@@ -1,0 +1,1211 @@
+{
+	"#vowel sounds": [
+		"^[aeiou]"
+	],
+	"#consonant sounds": [
+		"^u[^aeiou][aeiou]",
+		"^eu",
+		"^ewe",
+		"^ou",
+		"^one",
+		"^once",
+		"^oa",
+		"^esclop"
+	],
+	"#verb conjugations": {
+		"simple present first person singular": "<verb>",
+		"simple present second person singular": "<verb>",
+		"simple present third person singular": "<verb>s",
+		"simple present first person plural": "<verb>",
+		"simple present second person plural": "<verb>",
+		"simple present third person plural": "<verb>",
+		"present participle": "<verb-e>ing",
+		"simple past first person singular": "<verb-e>ed",
+		"simple past second person singular": "<verb-e>ed",
+		"simple past third person singular": "<verb-e>ed",
+		"simple past first person plural": "<verb-e>ed",
+		"simple past second person plural": "<verb-e>ed",
+		"simple past third person plural": "<verb-e>ed",
+		"past participle": "<verb-e>ed"
+	},
+	"abide": {
+		"present participle": "abiding",
+		"simple past first person singular": "abode",
+		"simple past second person singular": "abode",
+		"simple past third person singular": "abode",
+		"simple past first person plural": "abode",
+		"simple past second person plural": "abode",
+		"simple past third person plural": "abode",
+		"past participle": "abode"
+	},
+	"arise": {
+		"present participle": "arising",
+		"simple past first person singular": "arose",
+		"simple past second person singular": "arose",
+		"simple past third person singular": "arose",
+		"simple past first person plural": "arose",
+		"simple past second person plural": "arose",
+		"simple past third person plural": "arose",
+		"past participle": "arisen"
+	},
+	"awake": {
+		"present participle": "awakening",
+		"simple past first person singular": "awoke",
+		"simple past second person singular": "awoke",
+		"simple past third person singular": "awoke",
+		"simple past first person plural": "awoke",
+		"simple past second person plural": "awoke",
+		"simple past third person plural": "awoke",
+		"past participle": "awoken"
+	},
+	"be": {
+		"simple present first person singular": "am",
+		"simple present second person singular": "are",
+		"simple present third person singular": "is",
+		"simple present first person plural": "are",
+		"simple present second person plural": "are",
+		"simple present third person plural": "are",
+		"present participle": "being",
+		"simple past first person singular": "was",
+		"simple past second person singular": "were",
+		"simple past third person singular": "was",
+		"simple past first person plural": "were",
+		"simple past second person plural": "were",
+		"simple past third person plural": "were",
+		"past participle": "been"
+	},
+	"bear": {
+		"simple past first person singular": "bore",
+		"simple past second person singular": "bore",
+		"simple past third person singular": "bore",
+		"simple past first person plural": "bore",
+		"simple past second person plural": "bore",
+		"simple past third person plural": "bore",
+		"past participle": "born"
+	},
+	"beat": {
+		"simple past first person singular": "beat",
+		"simple past second person singular": "beat",
+		"simple past third person singular": "beat",
+		"simple past first person plural": "beat",
+		"simple past second person plural": "beat",
+		"simple past third person plural": "beat",
+		"past participle": "beaten"
+	},
+	"become": {
+		"present participle": "becoming",
+		"simple past first person singular": "became",
+		"simple past second person singular": "became",
+		"simple past third person singular": "became",
+		"simple past first person plural": "became",
+		"simple past second person plural": "became",
+		"simple past third person plural": "became",
+		"past participle": "become"
+	},
+	"beget": {
+		"present participle": "begetting",
+		"simple past first person singular": "begot",
+		"simple past second person singular": "begot",
+		"simple past third person singular": "begot",
+		"simple past first person plural": "begot",
+		"simple past second person plural": "begot",
+		"simple past third person plural": "begot",
+		"past participle": "begotten"
+	},
+	"begin": {
+		"present participle": "beginning",
+		"simple past first person singular": "began",
+		"simple past second person singular": "began",
+		"simple past third person singular": "began",
+		"simple past first person plural": "began",
+		"simple past second person plural": "began",
+		"simple past third person plural": "began",
+		"past participle": "begun"
+	},
+	"bend": {
+		"present participle": "bending",
+		"simple past first person singular": "bent",
+		"simple past second person singular": "bent",
+		"simple past third person singular": "bent",
+		"simple past first person plural": "bent",
+		"simple past second person plural": "bent",
+		"simple past third person plural": "bent",
+		"past participle": "bent"
+	},
+	"beseech": {
+		"simple past first person singular": "besought",
+		"simple past second person singular": "besought",
+		"simple past third person singular": "besought",
+		"simple past first person plural": "besought",
+		"simple past second person plural": "besought",
+		"simple past third person plural": "besought",
+		"past participle": "besought"
+	},
+	"bet": {
+		"present participle": "betting",
+		"simple past first person singular": "bet",
+		"simple past second person singular": "bet",
+		"simple past third person singular": "bet",
+		"simple past first person plural": "bet",
+		"simple past second person plural": "bet",
+		"simple past third person plural": "bet",
+		"past participle": "bet"
+	},
+	"bid": {
+		"present participle": "bidding",
+		"simple past first person singular": "bid",
+		"simple past second person singular": "bid",
+		"simple past third person singular": "bid",
+		"simple past first person plural": "bid",
+		"simple past second person plural": "bid",
+		"simple past third person plural": "bid",
+		"past participle": "bid"
+	},
+	"bind": {
+		"simple past first person singular": "bound",
+		"simple past second person singular": "bound",
+		"simple past third person singular": "bound",
+		"simple past first person plural": "bound",
+		"simple past second person plural": "bound",
+		"simple past third person plural": "bound",
+		"past participle": "bound"
+	},
+	"bleed": {
+		"present participle": "bleeding",
+		"simple past first person singular": "bled",
+		"simple past second person singular": "bled",
+		"simple past third person singular": "bled",
+		"simple past first person plural": "bled",
+		"simple past second person plural": "bled",
+		"simple past third person plural": "bled",
+		"past participle": "bled"
+	},
+	"blow": {
+		"present participle": "blowing",
+		"simple past first person singular": "blew",
+		"simple past second person singular": "blew",
+		"simple past third person singular": "blew",
+		"simple past first person plural": "blew",
+		"simple past second person plural": "blew",
+		"simple past third person plural": "blew",
+		"past participle": "blown"
+	},
+	"break": {
+		"present participle": "breaking",
+		"simple past first person singular": "broke",
+		"simple past second person singular": "broke",
+		"simple past third person singular": "broke",
+		"simple past first person plural": "broke",
+		"simple past second person plural": "broke",
+		"simple past third person plural": "broke",
+		"past participle": "broken"
+	},
+	"bring": {
+		"present participle": "bringing",
+		"simple past first person singular": "brought",
+		"simple past second person singular": "brought",
+		"simple past third person singular": "brought",
+		"simple past first person plural": "brought",
+		"simple past second person plural": "brought",
+		"simple past third person plural": "brought",
+		"past participle": "brought"
+	},
+	"build": {
+		"present participle": "building",
+		"simple past first person singular": "built",
+		"simple past second person singular": "built",
+		"simple past third person singular": "built",
+		"simple past first person plural": "built",
+		"simple past second person plural": "built",
+		"simple past third person plural": "built",
+		"past participle": "built"
+	},
+	"buy": {
+		"present participle": "buying",
+		"simple past first person singular": "bought",
+		"simple past second person singular": "bought",
+		"simple past third person singular": "bought",
+		"simple past first person plural": "bought",
+		"simple past second person plural": "bought",
+		"simple past third person plural": "bought",
+		"past participle": "bought"
+	},
+	"cast": {
+		"present participle": "casting",
+		"simple past first person singular": "cast",
+		"simple past second person singular": "cast",
+		"simple past third person singular": "cast",
+		"simple past first person plural": "cast",
+		"simple past second person plural": "cast",
+		"simple past third person plural": "cast",
+		"past participle": "cast"
+	},
+	"catch": {
+		"present participle": "catching",
+		"simple past first person singular": "caught",
+		"simple past second person singular": "caught",
+		"simple past third person singular": "caught",
+		"simple past first person plural": "caught",
+		"simple past second person plural": "caught",
+		"simple past third person plural": "caught",
+		"past participle": "caught"
+	},
+	"choose": {
+		"present participle": "choosing",
+		"simple past first person singular": "chose",
+		"simple past second person singular": "chose",
+		"simple past third person singular": "chose",
+		"simple past first person plural": "chose",
+		"simple past second person plural": "chose",
+		"simple past third person plural": "chose",
+		"past participle": "chosen"
+	},
+	"come": {
+		"present participle": "coming",
+		"simple past first person singular": "came",
+		"simple past second person singular": "came",
+		"simple past third person singular": "came",
+		"simple past first person plural": "came",
+		"simple past second person plural": "came",
+		"simple past third person plural": "came",
+		"past participle": "come"
+	},
+	"cost": {
+		"present participle": "costing",
+		"simple past first person singular": "cost",
+		"simple past second person singular": "cost",
+		"simple past third person singular": "cost",
+		"simple past first person plural": "cost",
+		"simple past second person plural": "cost",
+		"simple past third person plural": "cost",
+		"past participle": "cost"
+	},
+	"creep": {
+		"present participle": "creeping",
+		"simple past first person singular": "crept",
+		"simple past second person singular": "crept",
+		"simple past third person singular": "crept",
+		"simple past first person plural": "crept",
+		"simple past second person plural": "crept",
+		"simple past third person plural": "crept",
+		"past participle": "crept"
+	},
+	"cut": {
+		"present participle": "cutting",
+		"simple past first person singular": "cut",
+		"simple past second person singular": "cut",
+		"simple past third person singular": "cut",
+		"simple past first person plural": "cut",
+		"simple past second person plural": "cut",
+		"simple past third person plural": "cut",
+		"past participle": "cut"
+	},
+	"deal": {
+		"present participle": "dealing",
+		"simple past first person singular": "dealt",
+		"simple past second person singular": "dealt",
+		"simple past third person singular": "dealt",
+		"simple past first person plural": "dealt",
+		"simple past second person plural": "dealt",
+		"simple past third person plural": "dealt",
+		"past participle": "dealt"
+	},
+	"dig": {
+		"present participle": "digging",
+		"simple past first person singular": "dug",
+		"simple past second person singular": "dug",
+		"simple past third person singular": "dug",
+		"simple past first person plural": "dug",
+		"simple past second person plural": "dug",
+		"simple past third person plural": "dug",
+		"past participle": "dug"
+	},
+	"do": {
+		"present participle": "doing",
+		"simple past first person singular": "did",
+		"simple past second person singular": "did",
+		"simple past third person singular": "did",
+		"simple past first person plural": "did",
+		"simple past second person plural": "did",
+		"simple past third person plural": "did",
+		"past participle": "done"
+	},
+	"draw": {
+		"present participle": "drawing",
+		"simple past first person singular": "drew",
+		"simple past second person singular": "drew",
+		"simple past third person singular": "drew",
+		"simple past first person plural": "drew",
+		"simple past second person plural": "drew",
+		"simple past third person plural": "drew",
+		"past participle": "drawn"
+	},
+	"drink": {
+		"present participle": "drinking",
+		"simple past first person singular": "drank",
+		"simple past second person singular": "drank",
+		"simple past third person singular": "drank",
+		"simple past first person plural": "drank",
+		"simple past second person plural": "drank",
+		"simple past third person plural": "drank",
+		"past participle": "drunk"
+	},
+	"drive": {
+		"present participle": "driving",
+		"simple past first person singular": "drove",
+		"simple past second person singular": "drove",
+		"simple past third person singular": "drove",
+		"simple past first person plural": "drove",
+		"simple past second person plural": "drove",
+		"simple past third person plural": "drove",
+		"past participle": "driven"
+	},
+	"eat": {
+		"present participle": "eating",
+		"simple past first person singular": "ate",
+		"simple past second person singular": "ate",
+		"simple past third person singular": "ate",
+		"simple past first person plural": "ate",
+		"simple past second person plural": "ate",
+		"simple past third person plural": "ate",
+		"past participle": "eaten"
+	},
+	"fall": {
+		"present participle": "falling",
+		"simple past first person singular": "fell",
+		"simple past second person singular": "fell",
+		"simple past third person singular": "fell",
+		"simple past first person plural": "fell",
+		"simple past second person plural": "fell",
+		"simple past third person plural": "fell",
+		"past participle": "fallen"
+	},
+	"feed": {
+		"present participle": "feeding",
+		"simple past first person singular": "fed",
+		"simple past second person singular": "fed",
+		"simple past third person singular": "fed",
+		"simple past first person plural": "fed",
+		"simple past second person plural": "fed",
+		"simple past third person plural": "fed",
+		"past participle": "fed"
+	},
+	"feel": {
+		"present participle": "feeling",
+		"simple past first person singular": "felt",
+		"simple past second person singular": "felt",
+		"simple past third person singular": "felt",
+		"simple past first person plural": "felt",
+		"simple past second person plural": "felt",
+		"simple past third person plural": "felt",
+		"past participle": "felt"
+	},
+	"fight": {
+		"present participle": "fighting",
+		"simple past first person singular": "fought",
+		"simple past second person singular": "fought",
+		"simple past third person singular": "fought",
+		"simple past first person plural": "fought",
+		"simple past second person plural": "fought",
+		"simple past third person plural": "fought",
+		"past participle": "fought"
+	},
+	"find": {
+		"present participle": "finding",
+		"simple past first person singular": "found",
+		"simple past second person singular": "found",
+		"simple past third person singular": "found",
+		"simple past first person plural": "found",
+		"simple past second person plural": "found",
+		"simple past third person plural": "found",
+		"past participle": "found"
+	},
+	"fit": {
+		"present participle": "fitting",
+		"simple past first person singular": "fit",
+		"simple past second person singular": "fit",
+		"simple past third person singular": "fit",
+		"simple past first person plural": "fit",
+		"simple past second person plural": "fit",
+		"simple past third person plural": "fit",
+		"past participle": "fit"
+	},
+	"flee": {
+		"present participle": "fleeing",
+		"simple past first person singular": "fled",
+		"simple past second person singular": "fled",
+		"simple past third person singular": "fled",
+		"simple past first person plural": "fled",
+		"simple past second person plural": "fled",
+		"simple past third person plural": "fled",
+		"past participle": "fled"
+	},
+	"fling": {
+		"present participle": "flinging",
+		"simple past first person singular": "flung",
+		"simple past second person singular": "flung",
+		"simple past third person singular": "flung",
+		"simple past first person plural": "flung",
+		"simple past second person plural": "flung",
+		"simple past third person plural": "flung",
+		"past participle": "flung"
+	},
+	"fly": {
+		"present participle": "flying",
+		"simple past first person singular": "flew",
+		"simple past second person singular": "flew",
+		"simple past third person singular": "flew",
+		"simple past first person plural": "flew",
+		"simple past second person plural": "flew",
+		"simple past third person plural": "flew",
+		"past participle": "flown"
+	},
+	"forbid": {
+		"present participle": "forbidding",
+		"simple past first person singular": "forbade",
+		"simple past second person singular": "forbade",
+		"simple past third person singular": "forbade",
+		"simple past first person plural": "forbade",
+		"simple past second person plural": "forbade",
+		"simple past third person plural": "forbade",
+		"past participle": "forbidden"
+	},
+	"forget": {
+		"present participle": "forgetting",
+		"simple past first person singular": "forgot",
+		"simple past second person singular": "forgot",
+		"simple past third person singular": "forgot",
+		"simple past first person plural": "forgot",
+		"simple past second person plural": "forgot",
+		"simple past third person plural": "forgot",
+		"past participle": "forgotten"
+	},
+	"forgive": {
+		"present participle": "forgiving",
+		"simple past first person singular": "forgave",
+		"simple past second person singular": "forgave",
+		"simple past third person singular": "forgave",
+		"simple past first person plural": "forgave",
+		"simple past second person plural": "forgave",
+		"simple past third person plural": "forgave",
+		"past participle": "forgiven"
+	},
+	"freeze": {
+		"present participle": "freezing",
+		"simple past first person singular": "froze",
+		"simple past second person singular": "froze",
+		"simple past third person singular": "froze",
+		"simple past first person plural": "froze",
+		"simple past second person plural": "froze",
+		"simple past third person plural": "froze",
+		"past participle": "frozen"
+	},
+	"get": {
+		"present participle": "getting",
+		"simple past first person singular": "got",
+		"simple past second person singular": "got",
+		"simple past third person singular": "got",
+		"simple past first person plural": "got",
+		"simple past second person plural": "got",
+		"simple past third person plural": "got",
+		"past participle": "gotten"
+	},
+	"give": {
+		"present participle": "giving",
+		"simple past first person singular": "gave",
+		"simple past second person singular": "gave",
+		"simple past third person singular": "gave",
+		"simple past first person plural": "gave",
+		"simple past second person plural": "gave",
+		"simple past third person plural": "gave",
+		"past participle": "given"
+	},
+	"go": {
+		"present participle": "going",
+		"simple past first person singular": "went",
+		"simple past second person singular": "went",
+		"simple past third person singular": "went",
+		"simple past first person plural": "went",
+		"simple past second person plural": "went",
+		"simple past third person plural": "went",
+		"past participle": "gone"
+	},
+	"grow": {
+		"present participle": "growing",
+		"simple past first person singular": "grew",
+		"simple past second person singular": "grew",
+		"simple past third person singular": "grew",
+		"simple past first person plural": "grew",
+		"simple past second person plural": "grew",
+		"simple past third person plural": "grew",
+		"past participle": "grown"
+	},
+	"hang": {
+		"present participle": "hanging",
+		"simple past first person singular": "hung",
+		"simple past second person singular": "hung",
+		"simple past third person singular": "hung",
+		"simple past first person plural": "hung",
+		"simple past second person plural": "hung",
+		"simple past third person plural": "hung",
+		"past participle": "hung"
+	},
+	"have": {
+		"present participle": "having",
+		"simple past first person singular": "had",
+		"simple past second person singular": "had",
+		"simple past third person singular": "had",
+		"simple past first person plural": "had",
+		"simple past second person plural": "had",
+		"simple past third person plural": "had",
+		"past participle": "had"
+	},
+	"hear": {
+		"present participle": "hearing",
+		"simple past first person singular": "heard",
+		"simple past second person singular": "heard",
+		"simple past third person singular": "heard",
+		"simple past first person plural": "heard",
+		"simple past second person plural": "heard",
+		"simple past third person plural": "heard",
+		"past participle": "heard"
+	},
+	"hide": {
+		"present participle": "hiding",
+		"simple past first person singular": "hid",
+		"simple past second person singular": "hid",
+		"simple past third person singular": "hid",
+		"simple past first person plural": "hid",
+		"simple past second person plural": "hid",
+		"simple past third person plural": "hid",
+		"past participle": "hidden"
+	},
+	"hit": {
+		"present participle": "hitting",
+		"simple past first person singular": "hit",
+		"simple past second person singular": "hit",
+		"simple past third person singular": "hit",
+		"simple past first person plural": "hit",
+		"simple past second person plural": "hit",
+		"simple past third person plural": "hit",
+		"past participle": "hit"
+	},
+	"hold": {
+		"present participle": "holding",
+		"simple past first person singular": "held",
+		"simple past second person singular": "held",
+		"simple past third person singular": "held",
+		"simple past first person plural": "held",
+		"simple past second person plural": "held",
+		"simple past third person plural": "held",
+		"past participle": "held"
+	},
+	"hurt": {
+		"present participle": "hurting",
+		"simple past first person singular": "hurt",
+		"simple past second person singular": "hurt",
+		"simple past third person singular": "hurt",
+		"simple past first person plural": "hurt",
+		"simple past second person plural": "hurt",
+		"simple past third person plural": "hurt",
+		"past participle": "hurt"
+	},
+	"keep": {
+		"present participle": "keeping",
+		"simple past first person singular": "kept",
+		"simple past second person singular": "kept",
+		"simple past third person singular": "kept",
+		"simple past first person plural": "kept",
+		"simple past second person plural": "kept",
+		"simple past third person plural": "kept",
+		"past participle": "kept"
+	},
+	"know": {
+		"present participle": "knowing",
+		"simple past first person singular": "knew",
+		"simple past second person singular": "knew",
+		"simple past third person singular": "knew",
+		"simple past first person plural": "knew",
+		"simple past second person plural": "knew",
+		"simple past third person plural": "knew",
+		"past participle": "known"
+	},
+	"lay": {
+		"present participle": "laying",
+		"simple past first person singular": "laid",
+		"simple past second person singular": "laid",
+		"simple past third person singular": "laid",
+		"simple past first person plural": "laid",
+		"simple past second person plural": "laid",
+		"simple past third person plural": "laid",
+		"past participle": "laid"
+	},
+	"lead": {
+		"present participle": "leading",
+		"simple past first person singular": "led",
+		"simple past second person singular": "led",
+		"simple past third person singular": "led",
+		"simple past first person plural": "led",
+		"simple past second person plural": "led",
+		"simple past third person plural": "led",
+		"past participle": "led"
+	},
+	"leave": {
+		"present participle": "leaving",
+		"simple past first person singular": "left",
+		"simple past second person singular": "left",
+		"simple past third person singular": "left",
+		"simple past first person plural": "left",
+		"simple past second person plural": "left",
+		"simple past third person plural": "left",
+		"past participle": "left"
+	},
+	"lend": {
+		"present participle": "lending",
+		"simple past first person singular": "lent",
+		"simple past second person singular": "lent",
+		"simple past third person singular": "lent",
+		"simple past first person plural": "lent",
+		"simple past second person plural": "lent",
+		"simple past third person plural": "lent",
+		"past participle": "lent"
+	},
+	"let": {
+		"present participle": "letting",
+		"simple past first person singular": "let",
+		"simple past second person singular": "let",
+		"simple past third person singular": "let",
+		"simple past first person plural": "let",
+		"simple past second person plural": "let",
+		"simple past third person plural": "let",
+		"past participle": "let"
+	},
+	"lie": {
+		"present participle": "lying",
+		"simple past first person singular": "lay",
+		"simple past second person singular": "lay",
+		"simple past third person singular": "lay",
+		"simple past first person plural": "lay",
+		"simple past second person plural": "lay",
+		"simple past third person plural": "lay",
+		"past participle": "lain"
+	},
+	"light": {
+		"simple past first person singular": "lit",
+		"simple past second person singular": "lit",
+		"simple past third person singular": "lit",
+		"simple past first person plural": "lit",
+		"simple past second person plural": "lit",
+		"simple past third person plural": "lit",
+		"past participle": "lit"
+	},
+	"lose": {
+		"present participle": "losing",
+		"simple past first person singular": "lost",
+		"simple past second person singular": "lost",
+		"simple past third person singular": "lost",
+		"simple past first person plural": "lost",
+		"simple past second person plural": "lost",
+		"simple past third person plural": "lost",
+		"past participle": "lost"
+	},
+	"make": {
+		"present participle": "making",
+		"simple past first person singular": "made",
+		"simple past second person singular": "made",
+		"simple past third person singular": "made",
+		"simple past first person plural": "made",
+		"simple past second person plural": "made",
+		"simple past third person plural": "made",
+		"past participle": "made"
+	},
+	"mean": {
+		"present participle": "meaning",
+		"simple past first person singular": "meant",
+		"simple past second person singular": "meant",
+		"simple past third person singular": "meant",
+		"simple past first person plural": "meant",
+		"simple past second person plural": "meant",
+		"simple past third person plural": "meant",
+		"past participle": "meant"
+	},
+	"meet": {
+		"present participle": "meeting",
+		"simple past first person singular": "met",
+		"simple past second person singular": "met",
+		"simple past third person singular": "met",
+		"simple past first person plural": "met",
+		"simple past second person plural": "met",
+		"simple past third person plural": "met",
+		"past participle": "met"
+	},
+	"pay": {
+		"present participle": "paying",
+		"simple past first person singular": "paid",
+		"simple past second person singular": "paid",
+		"simple past third person singular": "paid",
+		"simple past first person plural": "paid",
+		"simple past second person plural": "paid",
+		"simple past third person plural": "paid",
+		"past participle": "paid"
+	},
+	"put": {
+		"present participle": "putting",
+		"simple past first person singular": "put",
+		"simple past second person singular": "put",
+		"simple past third person singular": "put",
+		"simple past first person plural": "put",
+		"simple past second person plural": "put",
+		"simple past third person plural": "put",
+		"past participle": "put"
+	},
+	"read": {
+		"present participle": "reading",
+		"simple past first person singular": "read",
+		"simple past second person singular": "read",
+		"simple past third person singular": "read",
+		"simple past first person plural": "read",
+		"simple past second person plural": "read",
+		"simple past third person plural": "read",
+		"past participle": "read"
+	},
+	"ride": {
+		"present participle": "riding",
+		"simple past first person singular": "rode",
+		"simple past second person singular": "rode",
+		"simple past third person singular": "rode",
+		"simple past first person plural": "rode",
+		"simple past second person plural": "rode",
+		"simple past third person plural": "rode",
+		"past participle": "ridden"
+	},
+	"ring": {
+		"present participle": "ringing",
+		"simple past first person singular": "rang",
+		"simple past second person singular": "rang",
+		"simple past third person singular": "rang",
+		"simple past first person plural": "rang",
+		"simple past second person plural": "rang",
+		"simple past third person plural": "rang",
+		"past participle": "rung"
+	},
+	"rise": {
+		"present participle": "rising",
+		"simple past first person singular": "rose",
+		"simple past second person singular": "rose",
+		"simple past third person singular": "rose",
+		"simple past first person plural": "rose",
+		"simple past second person plural": "rose",
+		"simple past third person plural": "rose",
+		"past participle": "risen"
+	},
+	"run": {
+		"present participle": "running",
+		"simple past first person singular": "ran",
+		"simple past second person singular": "ran",
+		"simple past third person singular": "ran",
+		"simple past first person plural": "ran",
+		"simple past second person plural": "ran",
+		"simple past third person plural": "ran",
+		"past participle": "run"
+	},
+	"say": {
+		"present participle": "saying",
+		"simple past first person singular": "said",
+		"simple past second person singular": "said",
+		"simple past third person singular": "said",
+		"simple past first person plural": "said",
+		"simple past second person plural": "said",
+		"simple past third person plural": "said",
+		"past participle": "said"
+	},
+	"see": {
+		"present participle": "seeing",
+		"simple past first person singular": "saw",
+		"simple past second person singular": "saw",
+		"simple past third person singular": "saw",
+		"simple past first person plural": "saw",
+		"simple past second person plural": "saw",
+		"simple past third person plural": "saw",
+		"past participle": "seen"
+	},
+	"sell": {
+		"present participle": "selling",
+		"simple past first person singular": "sold",
+		"simple past second person singular": "sold",
+		"simple past third person singular": "sold",
+		"simple past first person plural": "sold",
+		"simple past second person plural": "sold",
+		"simple past third person plural": "sold",
+		"past participle": "sold"
+	},
+	"send": {
+		"present participle": "sending",
+		"simple past first person singular": "sent",
+		"simple past second person singular": "sent",
+		"simple past third person singular": "sent",
+		"simple past first person plural": "sent",
+		"simple past second person plural": "sent",
+		"simple past third person plural": "sent",
+		"past participle": "sent"
+	},
+	"set": {
+		"present participle": "setting",
+		"simple past first person singular": "set",
+		"simple past second person singular": "set",
+		"simple past third person singular": "set",
+		"simple past first person plural": "set",
+		"simple past second person plural": "set",
+		"simple past third person plural": "set",
+		"past participle": "set"
+	},
+	"sew": {
+		"present participle": "sewing",
+		"simple past first person singular": "sewed",
+		"simple past second person singular": "sewed",
+		"simple past third person singular": "sewed",
+		"simple past first person plural": "sewed",
+		"simple past second person plural": "sewed",
+		"simple past third person plural": "sewed",
+		"past participle": "sewn"
+	},
+	"shake": {
+		"present participle": "shaking",
+		"simple past first person singular": "shook",
+		"simple past second person singular": "shook",
+		"simple past third person singular": "shook",
+		"simple past first person plural": "shook",
+		"simple past second person plural": "shook",
+		"simple past third person plural": "shook",
+		"past participle": "shaken"
+	},
+	"shine": {
+		"present participle": "shining",
+		"simple past first person singular": "shone",
+		"simple past second person singular": "shone",
+		"simple past third person singular": "shone",
+		"simple past first person plural": "shone",
+		"simple past second person plural": "shone",
+		"simple past third person plural": "shone",
+		"past participle": "shone"
+	},
+	"shoot": {
+		"present participle": "shooting",
+		"simple past first person singular": "shot",
+		"simple past second person singular": "shot",
+		"simple past third person singular": "shot",
+		"simple past first person plural": "shot",
+		"simple past second person plural": "shot",
+		"simple past third person plural": "shot",
+		"past participle": "shot"
+	},
+	"show": {
+		"present participle": "showing",
+		"simple past first person singular": "showed",
+		"simple past second person singular": "showed",
+		"simple past third person singular": "showed",
+		"simple past first person plural": "showed",
+		"simple past second person plural": "showed",
+		"simple past third person plural": "showed",
+		"past participle": "shown"
+	},
+	"shrink": {
+		"present participle": "shrinking",
+		"simple past first person singular": "shrank",
+		"simple past second person singular": "shrank",
+		"simple past third person singular": "shrank",
+		"simple past first person plural": "shrank",
+		"simple past second person plural": "shrank",
+		"simple past third person plural": "shrank",
+		"past participle": "shrunk"
+	},
+	"sing": {
+		"present participle": "singing",
+		"simple past first person singular": "sang",
+		"simple past second person singular": "sang",
+		"simple past third person singular": "sang",
+		"simple past first person plural": "sang",
+		"simple past second person plural": "sang",
+		"simple past third person plural": "sang",
+		"past participle": "sung"
+	},
+	"sit": {
+		"present participle": "sitting",
+		"simple past first person singular": "sat",
+		"simple past second person singular": "sat",
+		"simple past third person singular": "sat",
+		"simple past first person plural": "sat",
+		"simple past second person plural": "sat",
+		"simple past third person plural": "sat",
+		"past participle": "sat"
+	},
+	"sleep": {
+		"present participle": "sleeping",
+		"simple past first person singular": "slept",
+		"simple past second person singular": "slept",
+		"simple past third person singular": "slept",
+		"simple past first person plural": "slept",
+		"simple past second person plural": "slept",
+		"simple past third person plural": "slept",
+		"past participle": "slept"
+	},
+	"slide": {
+		"present participle": "sliding",
+		"simple past first person singular": "slid",
+		"simple past second person singular": "slid",
+		"simple past third person singular": "slid",
+		"simple past first person plural": "slid",
+		"simple past second person plural": "slid",
+		"simple past third person plural": "slid",
+		"past participle": "slid"
+	},
+	"soar": {
+		"present participle": "soaring",
+		"simple past first person singular": "soared",
+		"simple past second person singular": "soared",
+		"simple past third person singular": "soared",
+		"simple past first person plural": "soared",
+		"simple past second person plural": "soared",
+		"simple past third person plural": "soared",
+		"past participle": "soared"
+	},
+	"spend": {
+		"present participle": "spending",
+		"simple past first person singular": "spent",
+		"simple past second person singular": "spent",
+		"simple past third person singular": "spent",
+		"simple past first person plural": "spent",
+		"simple past second person plural": "spent",
+		"simple past third person plural": "spent",
+		"past participle": "spent"
+	},
+	"spill": {
+		"simple past first person singular": "spilt",
+		"simple past second person singular": "spilt",
+		"simple past third person singular": "spilt",
+		"simple past first person plural": "spilt",
+		"simple past second person plural": "spilt",
+		"simple past third person plural": "spilt",
+		"past participle": "spilt"
+	},
+	"spin": {
+		"present participle": "spinning",
+		"simple past first person singular": "spun",
+		"simple past second person singular": "spun",
+		"simple past third person singular": "spun",
+		"simple past first person plural": "spun",
+		"simple past second person plural": "spun",
+		"simple past third person plural": "spun",
+		"past participle": "spun"
+	},
+	"spit": {
+		"present participle": "spitting",
+		"simple past first person singular": "spat",
+		"simple past second person singular": "spat",
+		"simple past third person singular": "spat",
+		"simple past first person plural": "spat",
+		"simple past second person plural": "spat",
+		"simple past third person plural": "spat",
+		"past participle": "spat"
+	},
+	"split": {
+		"present participle": "splitting",
+		"simple past first person singular": "split",
+		"simple past second person singular": "split",
+		"simple past third person singular": "split",
+		"simple past first person plural": "split",
+		"simple past second person plural": "split",
+		"simple past third person plural": "split",
+		"past participle": "split"
+	},
+	"spread": {
+		"present participle": "spreading",
+		"simple past first person singular": "spread",
+		"simple past second person singular": "spread",
+		"simple past third person singular": "spread",
+		"simple past first person plural": "spread",
+		"simple past second person plural": "spread",
+		"simple past third person plural": "spread",
+		"past participle": "spread"
+	},
+	"stand": {
+		"present participle": "standing",
+		"simple past first person singular": "stood",
+		"simple past second person singular": "stood",
+		"simple past third person singular": "stood",
+		"simple past first person plural": "stood",
+		"simple past second person plural": "stood",
+		"simple past third person plural": "stood",
+		"past participle": "stood"
+	},
+	"steal": {
+		"present participle": "stealing",
+		"simple past first person singular": "stole",
+		"simple past second person singular": "stole",
+		"simple past third person singular": "stole",
+		"simple past first person plural": "stole",
+		"simple past second person plural": "stole",
+		"simple past third person plural": "stole",
+		"past participle": "stolen"
+	},
+	"stick": {
+		"present participle": "sticking",
+		"simple past first person singular": "stuck",
+		"simple past second person singular": "stuck",
+		"simple past third person singular": "stuck",
+		"simple past first person plural": "stuck",
+		"simple past second person plural": "stuck",
+		"simple past third person plural": "stuck",
+		"past participle": "stuck"
+	},
+	"sting": {
+		"present participle": "stinging",
+		"simple past first person singular": "stung",
+		"simple past second person singular": "stung",
+		"simple past third person singular": "stung",
+		"simple past first person plural": "stung",
+		"simple past second person plural": "stung",
+		"simple past third person plural": "stung",
+		"past participle": "stung"
+	},
+	"strike": {
+		"present participle": "striking",
+		"simple past first person singular": "struck",
+		"simple past second person singular": "struck",
+		"simple past third person singular": "struck",
+		"simple past first person plural": "struck",
+		"simple past second person plural": "struck",
+		"simple past third person plural": "struck",
+		"past participle": "struck"
+	},
+	"swim": {
+		"present participle": "swimming",
+		"simple past first person singular": "swam",
+		"simple past second person singular": "swam",
+		"simple past third person singular": "swam",
+		"simple past first person plural": "swam",
+		"simple past second person plural": "swam",
+		"simple past third person plural": "swam",
+		"past participle": "swum"
+	},
+	"take": {
+		"present participle": "taking",
+		"simple past first person singular": "took",
+		"simple past second person singular": "took",
+		"simple past third person singular": "took",
+		"simple past first person plural": "took",
+		"simple past second person plural": "took",
+		"simple past third person plural": "took",
+		"past participle": "taken"
+	},
+	"teach": {
+		"present participle": "teaching",
+		"simple past first person singular": "taught",
+		"simple past second person singular": "taught",
+		"simple past third person singular": "taught",
+		"simple past first person plural": "taught",
+		"simple past second person plural": "taught",
+		"simple past third person plural": "taught",
+		"past participle": "taught"
+	},
+	"tear": {
+		"present participle": "tearing",
+		"simple past first person singular": "tore",
+		"simple past second person singular": "tore",
+		"simple past third person singular": "tore",
+		"simple past first person plural": "tore",
+		"simple past second person plural": "tore",
+		"simple past third person plural": "tore",
+		"past participle": "torn"
+	},
+	"tell": {
+		"present participle": "telling",
+		"simple past first person singular": "told",
+		"simple past second person singular": "told",
+		"simple past third person singular": "told",
+		"simple past first person plural": "told",
+		"simple past second person plural": "told",
+		"simple past third person plural": "told",
+		"past participle": "told"
+	},
+	"think": {
+		"present participle": "thinking",
+		"simple past first person singular": "thought",
+		"simple past second person singular": "thought",
+		"simple past third person singular": "thought",
+		"simple past first person plural": "thought",
+		"simple past second person plural": "thought",
+		"simple past third person plural": "thought",
+		"past participle": "thought"
+	},
+	"throw": {
+		"present participle": "throwing",
+		"simple past first person singular": "threw",
+		"simple past second person singular": "threw",
+		"simple past third person singular": "threw",
+		"simple past first person plural": "threw",
+		"simple past second person plural": "threw",
+		"simple past third person plural": "threw",
+		"past participle": "thrown"
+	},
+	"understand": {
+		"present participle": "understanding",
+		"simple past first person singular": "understood",
+		"simple past second person singular": "understood",
+		"simple past third person singular": "understood",
+		"simple past first person plural": "understood",
+		"simple past second person plural": "understood",
+		"simple past third person plural": "understood",
+		"past participle": "understood"
+	},
+	"wake": {
+		"present participle": "waking",
+		"simple past first person singular": "woke",
+		"simple past second person singular": "woke",
+		"simple past third person singular": "woke",
+		"simple past first person plural": "woke",
+		"simple past second person plural": "woke",
+		"simple past third person plural": "woke",
+		"past participle": "woken"
+	},
+	"wear": {
+		"present participle": "wearing",
+		"simple past first person singular": "wore",
+		"simple past second person singular": "wore",
+		"simple past third person singular": "wore",
+		"simple past first person plural": "wore",
+		"simple past second person plural": "wore",
+		"simple past third person plural": "wore",
+		"past participle": "worn"
+	},
+	"weave": {
+		"present participle": "weaving",
+		"simple past first person singular": "wove",
+		"simple past second person singular": "wove",
+		"simple past third person singular": "wove",
+		"simple past first person plural": "wove",
+		"simple past second person plural": "wove",
+		"simple past third person plural": "wove",
+		"past participle": "woven"
+	},
+	"win": {
+		"present participle": "winning",
+		"simple past first person singular": "won",
+		"simple past second person singular": "won",
+		"simple past third person singular": "won",
+		"simple past first person plural": "won",
+		"simple past second person plural": "won",
+		"simple past third person plural": "won",
+		"past participle": "won"
+	},
+	"write": {
+		"present participle": "writing",
+		"simple past first person singular": "wrote",
+		"simple past second person singular": "wrote",
+		"simple past third person singular": "wrote",
+		"simple past first person plural": "wrote",
+		"simple past second person plural": "wrote",
+		"simple past third person plural": "wrote",
+		"past participle": "written"
+	}
+}

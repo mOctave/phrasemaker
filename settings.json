@@ -1,0 +1,6 @@
+{
+	"dictionary": "./dictionary.json",
+	"phrasebook": "./example-phrasebook.json",
+	"entrypoint": "main",
+	"includeOffensive": true
+}
