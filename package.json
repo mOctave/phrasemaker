@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mOctave/saying.git"
+    "url": "git+https://github.com/mOctave/phrasemaker.git"
   },
   "scripts": {
     "test": "node ./test.js"
@@ -17,7 +17,7 @@
   "author": "mOctave",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/mOctave/saying/issues"
+    "url": "https://github.com/mOctave/phrasemaker/issues"
   },
-  "homepage": "https://github.com/mOctave/saying#readme"
+  "homepage": "https://github.com/mOctave/phrasemaker#readme"
 }
