@@ -1,5 +1,5 @@
 {
-  "name": "phrase-creator",
+  "name": "phrasemaker",
   "version": "1.0.0",
   "description": "A module that procedurally generates random phrases according to a user-defined phrasebook.",
   "main": "index.js",
